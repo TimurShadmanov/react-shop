@@ -6,8 +6,10 @@ function Logo() {
 
     return (
         <div className="Logo">
-            <img src={logo} />
+            <img src={logo} alt='logo' />
+            <div>
             <p>Магазин</p>
+            </div>
         </div>
     );
 }
